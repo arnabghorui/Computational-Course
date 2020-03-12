@@ -19,12 +19,10 @@ AAt = A.dot(np.transpose(A))	#A.A^T
 eig_val_1, eig_vec_1 = np.linalg.eigh(AtA)
 eig_val_2, eig_vec_2 = np.linalg.eigh(AAt)
 
-# print(len(AtA))
 U = np.zeros( (len(AAt), len(AAt)) )	#initializing U, V^T
 Vt = np.zeros( (len(AtA), len(AtA)) )
 S = np.zeros(len(AtA))
 
-print(eig_vec_2)
 for i in range(len(AAt)):
 	for j in range(len(AAt)):
 		U[i][j] = eig_vec_2[i][len(AAt)-j-1] 
