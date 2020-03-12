@@ -2,7 +2,7 @@ import numpy as np
 np.set_printoptions(precision=3)
 np.set_printoptions(suppress=True)
 
-A = np.array([[0.2,  .1,  1.0, 1.0,  0.0],
+A = np.array([ [0.2,  .1,  1.0, 1.0,  0.0],
 			   [0.1,  4.0, -1.0, 1.0, -1.0],
 			   [1.0, -1.0, 60.0, 0.0, -2.0],
 			   [1.0,  1.0,    0, 8.0,  4.0],
