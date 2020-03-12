@@ -26,4 +26,4 @@ while (True):
 		break
 
 print("The largest eigenvalue is:","%.3f" %lamda)
-print("The largest eigenvector is:", v)
+print("The eigenvector corresponding to the largest eigenvalue is:", v)
